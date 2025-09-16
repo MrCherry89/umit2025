@@ -7,7 +7,7 @@ $(document).ready(function () {
     variableWidth: true, 
     arrows: false,
     dots: true,
-    // autoplay: true,
+    autoplay: true,
   });
 
   $(".select-wrap select").select2({
