@@ -18,6 +18,7 @@ $(document).ready(function () {
     $(this).toggleClass("is-active");
     $(".main-menu").toggleClass("open");
     $("body, html").toggleClass("overflow");
+    $(".header").toggleClass("bg");
 });
 
   $(".request-btn").smoothScroll({
@@ -33,6 +34,7 @@ $(document).ready(function () {
     $(".main-menu").removeClass("open");
     $(".drop-menu").removeClass("is-active");
     $("body, html").removeClass("overflow");
+    $(".header").removeClass("bg");
   })
 
   $('.info-images').slick({
